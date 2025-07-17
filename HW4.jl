@@ -436,9 +436,10 @@ println("Grid Search Best Test Accuracy: $(round(best_acc*100, digits=2))%")
 #Output = Final test accuracy with best config: 85.58%
 
 
-#Output = Q3 Final Test Accuracy: 85.15%
+#Output = Q3 Final Test Accuracy: 84.15%
 
 #Output = Grid Search Best Test Accuracy: 85.58%
 
-# Improved the results by 0.43% with grid search.
+# Improved the results by 1.43% with grid search.
+
 # This shows the effectiveness of hyperparameter tuning in improving model performance.
