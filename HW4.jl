@@ -1,3 +1,4 @@
+# Sunil Dutt - 20062693 - Homework 4
 import Pkg; Pkg.add("Lux")
 import Pkg; Pkg.add("Zygote")
 using Lux, Optimisers, Zygote
@@ -432,12 +433,12 @@ println("Final test accuracy with best config: $(round(best_acc*100, digits=2))%
 println("\nQ3 Final Test Accuracy: $(round(final_acc*100, digits=2))%")
 println("Grid Search Best Test Accuracy: $(round(best_acc*100, digits=2))%")
 
-#Output = Final test accuracy with best config: 85.51%
+#Output = Final test accuracy with best config: 85.58%
 
 
-#Output = Q3 Final Test Accuracy: 85.19%
+#Output = Q3 Final Test Accuracy: 85.15%
 
-#Output = Grid Search Best Test Accuracy: 85.51%
+#Output = Grid Search Best Test Accuracy: 85.58%
 
-# Improved the results by 0.32% with grid search.
+# Improved the results by 0.43% with grid search.
 # This shows the effectiveness of hyperparameter tuning in improving model performance.
